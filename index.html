@@ -774,7 +774,7 @@ function printSummary(){
   .total{font-size:18px;font-weight:700;margin-top:16px;border-top:2px solid #000;padding-top:12px}
   @media print{button{display:none}}</style></head><body>
   <h2>Відомість зарплати — ${monthName(month)}</h2>
-  <p style="color:#666;font-size:14px">Сформовано: ${new Date().toLocaleDateString('uk-UA')} · ФГ-ПРО-АГРО</p>
+  <p style="color:#666;font-size:14px">Сформовано: ${new Date().toLocaleDateString('uk-UA')} · ФГ ПРО-АГРО</p>
   <table><thead><tr><th>Працівник</th><th>Днів</th><th>Сума</th></tr></thead><tbody>${rows}</tbody></table>
   <div class="total">Загальна сума: ${total.toLocaleString('uk-UA')} ₴</div>
   <br><button onclick="window.print()">🖨 Друкувати</button></body></html>`);
